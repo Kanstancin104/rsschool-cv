@@ -37,6 +37,8 @@ String.prototype.toJadenCase = function () {
 
 ## Higher - Minsk State Linguistic University
 
+## Wild Code School - FE Web Development course
+
 # English level
 
 ## C1
