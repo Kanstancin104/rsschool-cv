@@ -2,22 +2,22 @@
 
 ![photo](/rsschool-cv/RESUME.jpg)
 
-# Contacts
+### Contacts
 
 - Discord nickname: Kanstantsin V (@Kanstancin104)
 - [Linkedin] (https://www.linkedin.com/in/kanstantsin-vienhura/)
 
-# About myself
+### About myself
 
-## My aim is to learn JavaScript. I'm always eager to study and learn something new.
+My aim is to learn JavaScript. I'm always eager to study and learn something new.
 
-# Skills
+### Skills
 
-## HTML, CSS, JavaScript
+HTML, CSS, JavaScript
 
-# Code example
+### Code example
 
-## Jaden Casing Strings
+#### Jaden Casing Strings
 
 ```
 String.prototype.toJadenCase = function () {
@@ -29,16 +29,16 @@ String.prototype.toJadenCase = function () {
 };
 ```
 
-# My projects
+### My projects
 
 [App for learning foreign languages] (https://foreignlangslearnapp.netlify.app/)
 
-# Education
+### Education
 
-## Higher - Minsk State Linguistic University
+- Higher - Minsk State Linguistic University
 
-## Wild Code School - FE Web Development course
+- Wild Code School - FE Web Development course
 
-# English level
+### English level
 
-## C1
+C1
