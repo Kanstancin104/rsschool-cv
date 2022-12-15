@@ -16,21 +16,13 @@ body {
   justify-content: space-between;
 }
 
-header {
-  border: 1px solid red;
-}
-
-main {
-  border: 1px spolid red;
-}
-
-footer {
-  border: 1px solid red;
-}
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+nav {
+  background-color: red;
 }
 
 .nav-list {
@@ -48,7 +40,7 @@ html {
   padding: 0 20px;
   line-height: 50px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 25px;
   transition: 0.3s;
 }
@@ -110,4 +102,37 @@ html {
   height: 10px;
   border: 1px solid #929985;
   border-radius: 50%;
+}
+
+img {
+  max-width: 200px;
+}
+
+code {
+  background-color: lightblue;
+  border: 1px solid rgb(99, 7, 7);
+  display: block;
+  padding: 20px;
+}
+
+footer {
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+p {
+  color: red;
+}
+
+.project-year {
+  color: white;
+}
+
+.github-link {
+  color: white;
+  font-size: 30px;
 }
