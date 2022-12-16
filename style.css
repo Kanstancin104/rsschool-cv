@@ -42,7 +42,6 @@ html {
   text-decoration: none;
   color: white;
   font-size: 25px;
-  transition: 0.3s;
 }
 
 .section-item a {
@@ -67,6 +66,21 @@ html {
 @media (max-width: 768px) {
   .section {
     width: 100%;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
   }
 }
 
@@ -124,7 +138,10 @@ a {
   color: red;
 }
 
-p {
+p,
+.skill-item,
+h3,
+.course-item {
   color: red;
 }
 
