@@ -76,19 +76,12 @@
         </section>
         <section class="section" id="code">
           <h2 class="section-title">Code example</h2>
-          <h3>Duplicate Encoder</h3>
+          <h3>Jaden Casing Strings</h3>
           <code
-            >function duplicateEncode(word) { let checkedLetters = []; let par =
-            ''; for (let i = 0; i < word.length; i++) { const currentLetter =
-            word[i].toLowerCase(); const foundLetter =
-            checkedLetters.find(element => element.name == currentLetter); if
-            (foundLetter == undefined) { let nextIndex =
-            word.indexOf(currentLetter, i + 1); if (nextIndex < 0) { nextIndex =
-            word.indexOf(currentLetter.toUpperCase(), i + 1); } if (nextIndex >=
-            0) { checkedLetters.push({ name: currentLetter, several: true, })
-            par += ')'; } else { checkedLetters.push({ name: currentLetter,
-            several: false }) par += '('; } } else { if (foundLetter.several) {
-            par += ')'; } else { par += '('; } } } return par; }</code
+            >String.prototype.toJadenCase = function () { function
+            capitalizeFirstLetters(str){ return str.charAt(0).toUpperCase() +
+            str.slice(1); } return this.split('
+            ').map(capitalizeFirstLetters).join(' '); };</code
           >
         </section>
         <section class="section" id="courses">
